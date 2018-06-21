@@ -1,14 +1,14 @@
 footer{
-    background:#1d1d1d;
-    color:#D4D0D3;
+    background:var(--color-dark);
+    color:var(--color-base);
 }
 .bg-grey{
-    background:#D4D0D3;
-    color:#1d1d1d;
+    background:var(--color-base);
+    color:var(--color-dark);
 }
 .bg-black{
     background:#000;
-    color:#D4D0D3;
+    color:var(--color-base);
 }
 .sub-nav{
     background:#000;
@@ -28,18 +28,21 @@ footer ul{
 }
 address div {
     margin-bottom:20px;
+    display:table;
 }
-address div svg[class*="fa"],
-address div span { 
-    font-size:16px; 
-    vertical-align:middle;
-    display:inline;
+address div svg:not(:root).svg-inline--fa {
+    margin-right:10px;
 }
+address div svg:not(:root).svg-inline--fa,
+address div span  { 
+    display:table-cell; 
+    vertical-align:middle; 
+} 
 .rrss li {
     float: left;
     font-size: 28px;
     margin-right: 15px;
 }
 .rrss li a{
-    color:#1d1d1d; 
+    color:var(--color-dark); 
 }

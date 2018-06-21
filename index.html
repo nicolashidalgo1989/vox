@@ -55,106 +55,111 @@
         <div class="menu">
             <div class="container">
                 <div class="row"> 
-                    <nav class="col-xs-4">
+                    <nav class="col-xs-2 col-xs-offset-3">
                         <ul> 
-                            <li>Categoria A</li> 
-                            <li>Categoria B</li> 
-                            <li>Categoria C</li> 
-                            <li>Categoria D</li> 
+                            <li><a>Categoria A</a></li> 
+                            <li><a>Categoria B</a></li> 
+                            <li><a>Categoria C</a></li> 
+                            <li><a>Categoria D</a></li> 
                         </ul>  
                     </nav> 
-                    <nav class="col-xs-4">
+                    <nav class="col-xs-2">
                         <ul> 
-                            <li>Categoria A</li> 
-                            <li>Categoria B</li> 
-                            <li>Categoria C</li> 
-                            <li>Categoria D</li>  
+                            <li><a>Categoria A</a></li> 
+                            <li><a>Categoria B</a></li> 
+                            <li><a>Categoria C</a></li> 
+                            <li><a>Categoria D</a></li>  
                         </ul>  
                     </nav>
-                    <nav class="col-xs-4">
+                    <nav class="col-xs-2">
                         <ul>
-                            <li>Tiendas</li>
-                            <li>etc...</li>
+                            <li><a>Tiendas</a></li>
+                            <li><a>etc...</a></li>
                         </ul>
                     </nav>
                 </div> 
             </div>
         </div>
-    </header>
-    <!--
+    </header> 
     <main>
-        <section class="banner">
+        <section class="banner"> 
+            <i class="fa-2x fas fa-angle-left"></i>
             <div class="slide">
                 <div class="titulo">
                     <h2>Frase promocional</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="">Ver más</a> 
+                    <a href="" class="btn">Ver más</a> 
+                </div>  
+            </div>
+            <i class="fa-2x fas fa-angle-right"></i>  
+        </section>
+        <section class="margin--minus">
+            <div class="container">
+                <div class="row">
+                    <article class="col-md-6">
+                        <figure class="box"> 
+                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img--40"> 
+                            <figcaption class="box__desc col-md-7 col-md-offset-5">
+                                <h2 class="box__desc__titulo">Nombre producto</h2>
+                                <p class="box__desc__txt">Descripcion</p>
+                                <p class="box__desc__price">$X.XXX</p>
+                                <p class="box__desc__price--before">$X.XXX</p>
+                                <a href="" class="btn">Ver más</a>
+                            </figcaption>
+                        </figure>
+                    </article> 
                 </div>
-                <img src="" alt="">
             </div>
         </section>
-        <section class="destacados">
-            <div>
-                <article>
-                    <figure>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <figcaption>
-                            <h2>Nombre producto</h2>
-                            <p>Descripcion</p>
-                            <p class="precio">$X.XXX</p>
-                            <p class="precio anterior">$X.XXX</p>
-                            <a href="" class="btn">Ver más</a>
+        <section class="productos">
+            <div class="container">
+                <div class="row">
+                    <article class="col-md-4">
+                        <figure class="box"> 
+                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img"> 
+                            <figcaption class="box__desc text-center">
+                                <h2 class="box__desc__titulo">Nombre producto</h2>
+                                <p class="box__desc__txt">Descripcion</p>
+                                <p class="box__desc__price">$X.XXX</p>
+                                <p class="box__desc__price--before">$X.XXX</p>
+                                <a href="" class="btn">Ver más</a>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="pasos text-center">
+            <div class="container">
+                <div class="row">
+                    <figure class="col-md-3"> 
+                        <i class="fas fa-cart"></i>
+                        <figcaption> 
+                            <p>Paso 1</p> 
                         </figcaption>
                     </figure>
-                </article> 
-            </div>
-        </section>
-        <section class="carrusel">
-            <div>
-                <article>
-                    <figure> 
-                        <img src="" alt=""> 
-                        <figcaption>
-                            <h2>Nombre producto</h2>
-                            <p>Descripcion</p>
-                            <p class="precio">$X.XXX</p>
-                            <p class="precio anterior">$X.XXX</p>
-                            <a href="" class="btn">Ver más</a>
+                    <figure class="col-md-3"> 
+                        <i class="fas fa-cart"></i>
+                        <figcaption> 
+                            <p>Paso 1</p> 
                         </figcaption>
                     </figure>
-                </article> 
-            </div>
+                    <figure class="col-md-3"> 
+                        <i class="fas fa-cart"></i>
+                        <figcaption> 
+                            <p>Paso 1</p> 
+                        </figcaption>
+                    </figure>
+                    <figure class="col-md-3"> 
+                        <i class="fas fa-cart"></i>
+                        <figcaption> 
+                            <p>Paso 1</p> 
+                        </figcaption>
+                    </figure>
+                </div>
+            </div> 
         </section>
-        <section class="pasos">
-            <figure> 
-                <i class="fas fa-cart"></i>
-                <figcaption> 
-                    <p>Paso 1</p> 
-                </figcaption>
-            </figure>
-            <figure> 
-                <i class="fas fa-cart"></i>
-                <figcaption> 
-                    <p>Paso 1</p> 
-                </figcaption>
-            </figure>
-            <figure> 
-                <i class="fas fa-cart"></i>
-                <figcaption> 
-                    <p>Paso 1</p> 
-                </figcaption>
-            </figure>
-            <figure> 
-                <i class="fas fa-cart"></i>
-                <figcaption> 
-                    <p>Paso 1</p> 
-                </figcaption>
-            </figure>
-        </section>
-    </main> 
-    -->
+    </main>  
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -183,11 +188,11 @@
                         </ul> 
                     </div>   
                 </div>       
-                <div class="col-md-8 col-sm-6 padding-all">
+                <div class="col-md-7 col-sm-5 col-md-offset-1 col-sm-offset-1 padding-top-bottom">
                     <div class="col-sm-12"> 
                         <h6>Productos por categoría</h6>
                     </div>
-                    <div class="col-md-3 col-sm-6"> 
+                    <div class="col-md-3 col-xs-6"> 
                         <ul>
                             <li>Categoria A</li>
                             <li>Categoria A</li>
@@ -195,7 +200,7 @@
                             <li>Categoria A</li> 
                         </ul>
                     </div> 
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-xs-6">
                         <ul>
                             <li>Categoria A</li>
                             <li>Categoria A</li>
@@ -207,7 +212,7 @@
                         <hr> 
                         <h6>Mapa de Sitio</h6>
                     </div> 
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-xs-6">
                         <ul>
                             <li>Categoria A</li>
                             <li>Categoria A</li>
@@ -215,7 +220,7 @@
                             <li>Categoria A</li> 
                         </ul>
                     </div>  
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-xs-6">
                         <ul>
                             <li>Categoria A</li>
                             <li>Categoria A</li>
