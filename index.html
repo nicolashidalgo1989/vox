@@ -83,14 +83,13 @@
     </header> 
     <main>
         <section class="banner"> 
-            <i class="fa-2x fas fa-angle-left"></i>
-            <div class="slide">
-                <div class="titulo">
+            <i class="fa-2x fas fa-angle-left"></i> 
+            <div class="banner__titulo"> 
                     <h2>Frase promocional</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="" class="btn">Ver más</a> 
-                </div>  
-            </div>
+                </div>    
+            </div>  
             <i class="fa-2x fas fa-angle-right"></i>  
         </section>
         <section class="margin--minus">
@@ -98,7 +97,19 @@
                 <div class="row">
                     <article class="col-md-6">
                         <figure class="box"> 
-                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img--40"> 
+                            <img src="assets/img/producto1.jpg" alt="Descripcion Imagen" class="box__img--40"> 
+                            <figcaption class="box__desc col-md-7 col-md-offset-5">
+                                <h2 class="box__desc__titulo">Nombre producto</h2>
+                                <p class="box__desc__txt">Descripcion</p>
+                                <p class="box__desc__price">$X.XXX</p>
+                                <p class="box__desc__price--before">$X.XXX</p>
+                                <a href="" class="btn">Ver más</a>
+                            </figcaption>
+                        </figure>
+                    </article> 
+                    <article class="col-md-6">
+                        <figure class="box"> 
+                            <img src="assets/img/producto1.jpg" alt="Descripcion Imagen" class="box__img--40"> 
                             <figcaption class="box__desc col-md-7 col-md-offset-5">
                                 <h2 class="box__desc__titulo">Nombre producto</h2>
                                 <p class="box__desc__txt">Descripcion</p>
@@ -111,7 +122,8 @@
                 </div>
             </div>
         </section>
-        <section class="productos">
+        <section class="carrusel">
+            <i class="fa-2x fas fa-angle-left"></i> 
             <div class="container">
                 <div class="row">
                     <article class="col-md-4">
@@ -126,34 +138,66 @@
                             </figcaption>
                         </figure>
                     </article>
+                    <article class="col-md-4">
+                        <figure class="box"> 
+                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img"> 
+                            <figcaption class="box__desc text-center">
+                                <h2 class="box__desc__titulo">Nombre producto</h2>
+                                <p class="box__desc__txt">Descripcion</p>
+                                <p class="box__desc__price">$X.XXX</p>
+                                <p class="box__desc__price--before">$X.XXX</p>
+                                <a href="" class="btn">Ver más</a>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-4">
+                        <figure class="box"> 
+                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img"> 
+                            <figcaption class="box__desc text-center">
+                                <h2 class="box__desc__titulo">Nombre producto</h2>
+                                <p class="box__desc__txt">Descripcion</p>
+                                <p class="box__desc__price">$X.XXX</p>
+                                <p class="box__desc__price--before">$X.XXX</p>
+                                <a href="" class="btn">Ver más</a>
+                            </figcaption>
+                        </figure>
+                    </article>
                 </div>
             </div>
+            <i class="fa-2x fas fa-angle-right"></i> 
         </section>
         <section class="pasos text-center">
             <div class="container">
                 <div class="row">
-                    <figure class="col-md-3"> 
-                        <i class="fas fa-cart"></i>
+                    <figure class="col-xs-6 col-md-3 pasos__figure"> 
+                        <i class="fas fa-cart-arrow-down"></i>
                         <figcaption> 
-                            <p>Paso 1</p> 
+                            <p>Paso 1</p>
+                            <p>Escoge tus productos</p>
                         </figcaption>
-                    </figure>
-                    <figure class="col-md-3"> 
-                        <i class="fas fa-cart"></i>
+                        <i class="fa-2x fas fa-angle-right"></i> 
+                    </figure>  
+                    <figure class="col-xs-6 col-md-3 pasos__figure"> 
+                        <i class="fas fa-check"></i>
                         <figcaption> 
-                            <p>Paso 1</p> 
+                            <p>Paso 2</p> 
+                            <p>Confirma tu compra</p>
                         </figcaption>
-                    </figure>
-                    <figure class="col-md-3"> 
-                        <i class="fas fa-cart"></i>
+                        <i class="hidden-xs hidden-sm fa-2x fas fa-angle-right"></i> 
+                    </figure> 
+                    <figure class="col-xs-6 col-md-3 pasos__figure"> 
+                        <i class="fas fa-truck"></i>
                         <figcaption> 
-                            <p>Paso 1</p> 
+                            <p>Paso 3</p> 
+                            <p>Indica direccion de despacho</p>
                         </figcaption>
-                    </figure>
-                    <figure class="col-md-3"> 
-                        <i class="fas fa-cart"></i>
+                        <i class="fa-2x fas fa-angle-right"></i> 
+                    </figure> 
+                    <figure class="col-xs-6 col-md-3 pasos__figure"> 
+                        <i class="fas fa-people-carry"></i>
                         <figcaption> 
-                            <p>Paso 1</p> 
+                            <p>Paso 4</p> 
+                            <p>y recibe tus productos</p>
                         </figcaption>
                     </figure>
                 </div>
