@@ -6,13 +6,16 @@
     --color-bg : #f0f0f0;
     --color-base : #D4D0D3;
     --color-dark : #1D1D1D;
+    --color-white-opacity: rgba(255,255,255,.9);
     --color-base-opacity: rgba(255,255,255,.3);
     --color-dark-opacity: rgba(29,29,29,.3);
+    --color-dark-gradient: linear-gradient(rgba(29,29,29,.9), rgba(29,29,29,0), rgba(29,29,29,.9));
     --trans: all .3s ease-in-out;
 }
 body{   
     font-family: 'Open Sans', Arial, sans-serif;
     background: var(--color-bg);
+    padding-top:150px;
 } 
 .bckgrnd {
     width:100%; 
@@ -30,6 +33,10 @@ body{
     padding:50px 0;
     overflow:hidden;
 } 
+.margin-top-bottom{
+    margin-bottom:50px;
+    margin-top:50px; 
+} 
 .margin--minus {
     position:relative;
     margin-top:-60px;
@@ -39,4 +46,31 @@ h6 {
     font-size:16px;
     margin-top:0;
     margin-bottom:20px;
+}
+.breadcrumb__content {
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.breadcrumb__content nav {
+    float: left;
+}
+.breadcrumb { 
+    margin: 15px 0; 
+    background-color: transparent;
+    border-radius: 0;
+}
+.breadcrumb__content  .breadcrumb li a {
+    color:white;
+} 
+.breadcrumb li a {
+    color:var(--color-dark);
+} 
+.breadcrumb li a .svg-inline--fa {
+    margin-right: 5px;
+}
+.titulo__prods{
+    margin-bottom:50px;
 }

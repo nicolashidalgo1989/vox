@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <link rel="stylesheet" href="assets/css/main.css">         
 </head>
-<body>
+<body> 
     <header>
         <div class="top-nav">
             <div class="container">
@@ -54,27 +54,37 @@
         </div>
         <div class="menu">
             <div class="container">
-                <div class="row"> 
-                    <nav class="col-xs-2 col-xs-offset-3">
+                <div class="row">   
+                    <nav class="col-xs-3 col-xs-offset-2">
                         <ul> 
-                            <li><a>Categoria A</a></li> 
-                            <li><a>Categoria B</a></li> 
-                            <li><a>Categoria C</a></li> 
-                            <li><a>Categoria D</a></li> 
+                            <li><a>Anteojos de sol</a></li> 
+                            <li><a>Anteojos ópticos</a></li> 
+                            <li><a>Relojes</a></li> 
+                            <li><a>Electrónica-audio</a></li> 
+                            <li><a>Outdoor</a></li> 
+                            <li><a>Escritorio</a></li>  
                         </ul>  
                     </nav> 
-                    <nav class="col-xs-2">
-                        <ul> 
-                            <li><a>Categoria A</a></li> 
-                            <li><a>Categoria B</a></li> 
-                            <li><a>Categoria C</a></li> 
-                            <li><a>Categoria D</a></li>  
+                    <nav class="col-xs-3">
+                        <ul>   
+                            <li><a>Asado-vino</a></li> 
+                            <li><a>Billeteras</a></li> 
+                            <li><a>Lamparas</a></li> 
+                            <li><a>Juegos</a></li> 
+                            <li><a>Scooters eléctricos</a></li> 
+                            <li><a>Articulos publicitarios y por mayor</a></li> 
                         </ul>  
                     </nav>
-                    <nav class="col-xs-2">
+                    <nav class="col-xs-3">
                         <ul>
-                            <li><a>Tiendas</a></li>
-                            <li><a>etc...</a></li>
+                            <li><a>Tiendas</a></li> 
+                            <li><a>Ingresar</a></li> 
+                            <li><a>Carrito de compra</a></li> 
+                            <li><a>Despacho</a></li> 
+                            <li><a>Preguntas frecuentes</a></li> 
+                            <li><a>Venta para empresas</a></li>   
+                            <li><a>Contacto</a></li> 
+                            <li><a>Politicas y garantias de retracto</a></li> 
                         </ul>
                     </nav>
                 </div> 
@@ -83,22 +93,27 @@
     </header> 
     <main>
         <section class="banner"> 
-            <i class="fa-2x fas fa-angle-left"></i> 
-            <div class="banner__titulo"> 
-                    <h2>Frase promocional</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="btn">Ver más</a> 
-                </div>    
-            </div>  
+            <i class="fa-2x fas fa-angle-left"></i>
+            <div class="slide">
+                <div class="banner__titulo"> 
+                        <h2>Frase promocional</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="" class="btn">Ver más</a> 
+                    </div>    
+                </div>   
+                <img src="assets/img/banners/banner01.jpg" alt="Descripcion Imagen" class="banner__slide__imagen">     
+            </div>            
             <i class="fa-2x fas fa-angle-right"></i>  
         </section>
         <section class="margin--minus">
             <div class="container">
                 <div class="row">
                     <article class="col-sm-6">
-                        <figure class="box"> 
-                            <img src="assets/img/producto1.jpg" alt="Descripcion Imagen" class="box__img--40"> 
-                            <figcaption class="box__desc col-md-7 col-md-offset-5">
+                        <figure class="box">  
+                            <div class="box__img__container col-md-5">
+                                <img src="assets/img/productos/producto-05.jpg" alt="Descripcion Imagen" class="box__img__container__image"> 
+                            </div>   
+                            <figcaption class="col-md-7">
                                 <h2 class="box__desc__titulo">Nombre producto</h2>
                                 <p class="box__desc__txt">Descripcion</p>
                                 <p class="box__desc__price">$X.XXX</p>
@@ -108,9 +123,11 @@
                         </figure>
                     </article> 
                     <article class="col-sm-6">
-                        <figure class="box"> 
-                            <img src="assets/img/producto1.jpg" alt="Descripcion Imagen" class="box__img--40"> 
-                            <figcaption class="box__desc col-md-7 col-md-offset-5">
+                        <figure class="box">  
+                            <div class="box__img__container col-md-5">
+                                <img src="assets/img/productos/producto-04.jpg" alt="Descripcion Imagen" class="box__img__container__image"> 
+                            </div>   
+                            <figcaption class="col-md-7">
                                 <h2 class="box__desc__titulo">Nombre producto</h2>
                                 <p class="box__desc__txt">Descripcion</p>
                                 <p class="box__desc__price">$X.XXX</p>
@@ -122,13 +139,13 @@
                 </div>
             </div>
         </section>
-        <section class="carrusel">
+        <section class="carrusel productos">
             <i class="fa-2x fas fa-angle-left"></i> 
             <div class="container">
                 <div class="row">
-                    <article class="col-md-4">
+                    <article class="col-sm-6 col-md-4">
                         <figure class="box"> 
-                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img"> 
+                            <img src="assets/img/productos/producto-03.jpg" alt="Descropcion Imagen" class="box__img"> 
                             <figcaption class="box__desc text-center">
                                 <h2 class="box__desc__titulo">Nombre producto</h2>
                                 <p class="box__desc__txt">Descripcion</p>
@@ -138,9 +155,9 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="col-md-4">
+                    <article class="col-sm-6 col-md-4">
                         <figure class="box"> 
-                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img"> 
+                            <img src="assets/img/productos/producto-04.jpg" alt="Descropcion Imagen" class="box__img"> 
                             <figcaption class="box__desc text-center">
                                 <h2 class="box__desc__titulo">Nombre producto</h2>
                                 <p class="box__desc__txt">Descripcion</p>
@@ -150,9 +167,9 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="col-md-4">
+                    <article class="col-sm-6 col-md-4">
                         <figure class="box"> 
-                            <img src="assets/img/producto1.jpg" alt="Descropcion Imagen" class="box__img"> 
+                            <img src="assets/img/productos/producto-06.jpg" alt="Descropcion Imagen" class="box__img"> 
                             <figcaption class="box__desc text-center">
                                 <h2 class="box__desc__titulo">Nombre producto</h2>
                                 <p class="box__desc__txt">Descripcion</p>
@@ -207,7 +224,7 @@
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4  col-sm-6 bg-grey padding-top-bottom">
+                <div class="col-md-4  col-sm-6 bg-grey">
                     <div class="col-sm-6 col-sm-offset-4">
                         <img src="assets/img/vox-logo-transparente.svg" alt="VOX" class="logo"> 
                         <address> 
@@ -235,41 +252,45 @@
                 <div class="col-md-7 col-sm-5 col-md-offset-1 col-sm-offset-1 padding-top-bottom">
                     <div class="col-sm-12"> 
                         <h6>Productos por categoría</h6>
-                    </div>
-                    <div class="col-md-3 col-xs-6"> 
-                        <ul>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li> 
-                        </ul>
-                    </div> 
-                    <div class="col-md-3 col-xs-6">
-                        <ul>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>  
-                        </ul>
                     </div>  
-                    <div class="col-sm-12"> 
+                    <div class="col-md-4 col-xs-6">
+                        <ul> 
+                            <li><a>Anteojos de sol</a></li> 
+                            <li><a>Anteojos pticos</a></li> 
+                            <li><a>Relojes</a></li> 
+                            <li><a>Electronica-audio</a></li> 
+                            <li><a>Outdoor</a></li> 
+                            <li><a>Escritorio</a></li>  
+                        </ul>  
+                    </div> 
+                    <div class="col-md-4 col-xs-6">
+                        <ul>   
+                            <li><a>Asado-vino</a></li> 
+                            <li><a>Billeteras</a></li> 
+                            <li><a>Lamparas</a></li> 
+                            <li><a>Juegos</a></li> 
+                            <li><a>Scooters eléctricos</a></li> 
+                            <li><a>Articulos publicitarios y por mayor</a></li> 
+                        </ul>  
+                    </div>
+                    <div class="col-sm-12 col-md-10"> 
                         <hr> 
                         <h6>Mapa de Sitio</h6>
                     </div> 
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-6">
                         <ul>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li> 
+                            <li><a>Tiendas</a></li> 
+                            <li><a>Ingresar</a></li> 
+                            <li><a>Carrito de compra</a></li> 
+                            <li><a>Despacho</a></li> 
                         </ul>
                     </div>  
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-6">
                         <ul>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li>
-                            <li>Categoria A</li> 
+                            <li><a>Preguntas frecuentes</a></li> 
+                            <li><a>Venta para empresas</a></li>   
+                            <li><a>Contacto</a></li> 
+                            <li><a>Politicas y garantias de retracto</a></li> 
                         </ul>
                     </div>
                 </div>

@@ -1,11 +1,14 @@
 header{
     box-shadow:0px 2px 3px var(--color-dark-opacity);  
-    height:170px;
+    height:150px;
     overflow:hidden;
     transition:var(--trans);
     position:relative;
-    z-index:2;
+    z-index:3;
     background:white;
+    top: 0;
+    position: absolute;
+    width:100%;
 }
 header.open{
     height:400px;
@@ -25,7 +28,7 @@ header.open{
     text-decoration: none;
 }
 .principal {
-    padding:15px 0;
+    padding:10px 0;
     text-align:center;
 }
 header .logo { 
@@ -49,6 +52,17 @@ header .logo {
 }
 .menu ul li {
     list-style:none;
+    margin-bottom:5px;
+}
+.menu ul li a {
+    font-size: 14px;
+    color: #444;
+    cursor:pointer;
+    transition:var(--trans);
+}
+.menu ul li a:hover {
+    text-decoration:none;
+    color:var(--color-dark);
 }
 .buscador {
     margin-top: 30px; 
