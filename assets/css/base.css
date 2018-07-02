@@ -73,4 +73,11 @@ h6 {
 }
 .titulo__prods{
     margin-bottom:50px;
+} 
+th, td { 
+    vertical-align: middle!important;
+    text-align: center;
+}
+td img {
+    width:80px
 }
